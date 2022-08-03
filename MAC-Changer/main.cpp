@@ -1,23 +1,3 @@
-/*
-* Copyright (C) 2016 SaEeD
-*
-* This program is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public License
-* as published by the Free Software Foundation; either version 2
-* of the License, or (at your option) any later version.
-*
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-* GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License
-* along with this program; if not, write to the Free Software
-* Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
-*
-* Description:  Generate Random MAC address for Network Adapters.
-*/
-
 #include <iostream>
 #include <limits>
 #include "MyMACAddr.h"
@@ -28,10 +8,10 @@
 //Main Menu
 void Menu() {
 
-	cout << "Bitte wählen Sie eine der folgenden Optionen:\n" <<
-		"\t1)Nur zufällige MAC-Adresse generieren.\n" <<
+	cout << "Bitte wÃ¤hlen Sie eine der folgenden Optionen:\n" <<
+		"\t1)Nur zufÃ¤llige MAC-Adresse generieren.\n" <<
 		"\t2)Details zu Netzwerkadaptern anzeigen.\n" <<
-		"\t3)Zuweisung einer zufälligen MAC-Adresse zur Netzwerkschnittstelle.\n" <<
+		"\t3)Zuweisung einer zufÃ¤lligen MAC-Adresse zur Netzwerkschnittstelle.\n" <<
 		"\t4)Netzwerkschnittstellen Zusammenfassung.\n"
 		"\t5)Verlassen.\n\nAuswahl: ";
 
